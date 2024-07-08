@@ -16,10 +16,19 @@ struct LocationsView: View {
         ZStack {
             Map(coordinateRegion: $viewModel.mapRegion)
                 .ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                HeaderView()
+                    .padding()
+                
+                Spacer()
+            }
+
         }
     }
 }
-
 #Preview {
-    LocationsView().environmentObject(LocationViewModel())
+    LocationsView()
+        .environmentObject(LocationViewModel())
+//        .preferredColorScheme(.dark)
 }
