@@ -14,8 +14,7 @@ struct LocationsView: View {
     
     var body: some View {
         ZStack {
-            Map(coordinateRegion: $viewModel.mapRegion)
-                .ignoresSafeArea()
+            MapView()
             
             VStack(spacing: 0) {
                 HeaderView()
@@ -41,6 +40,7 @@ struct LocationsView: View {
         }
     }
 }
+
 #Preview {
     LocationsView()
         .environmentObject(LocationViewModel())
