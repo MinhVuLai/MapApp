@@ -16,6 +16,7 @@
 		09E74C912C3C52DC0093D32B /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E74C902C3C52DC0093D32B /* LocationViewModel.swift */; };
 		09E74C942C3C598C0093D32B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E74C932C3C598C0093D32B /* HeaderView.swift */; };
 		09E74C962C3C5AEA0093D32B /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E74C952C3C5AEA0093D32B /* LocationsListView.swift */; };
+		09E74C982C3C64A60093D32B /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E74C972C3C64A60093D32B /* LocationPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		09E74C902C3C52DC0093D32B /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		09E74C932C3C598C0093D32B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		09E74C952C3C5AEA0093D32B /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		09E74C972C3C64A60093D32B /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				09E74C932C3C598C0093D32B /* HeaderView.swift */,
 				09E74C952C3C5AEA0093D32B /* LocationsListView.swift */,
+				09E74C972C3C64A60093D32B /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				09E74C912C3C52DC0093D32B /* LocationViewModel.swift in Sources */,
 				09E74C962C3C5AEA0093D32B /* LocationsListView.swift in Sources */,
+				09E74C982C3C64A60093D32B /* LocationPreviewView.swift in Sources */,
 				09E74C942C3C598C0093D32B /* HeaderView.swift in Sources */,
 				09E74C772C3C423E0093D32B /* MapAppApp.swift in Sources */,
 				09E74C8F2C3C52D10093D32B /* LocationsView.swift in Sources */,
