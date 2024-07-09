@@ -36,7 +36,9 @@ struct LocationsView: View {
                 }
                 .padding(.bottom, 20)
             }
-
+        }
+        .sheet(item: $viewModel.sheetLocation, onDismiss: nil) { location in
+            LocationDetailView(location: location)
         }
     }
 }

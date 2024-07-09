@@ -10,7 +10,7 @@ import MapKit
 
 struct MapView: View {
     
-    @EnvironmentObject var viewModel: LocationViewModel
+    @EnvironmentObject private var viewModel: LocationViewModel
     
     var body: some View {
         Map(coordinateRegion: $viewModel.mapRegion,
